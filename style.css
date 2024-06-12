@@ -315,3 +315,117 @@ input {
 .link a:hover{
     color: #C30239;
 }
+
+@media(max-width:545px) {
+
+    .menu {
+        padding: 20px;
+    }
+
+    .menu label {
+        display: initial;
+    }
+
+    .menu .navbar {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: #24272E;
+        display: none;
+    }
+
+    .menu .navbar ul li {
+        width: 100%;
+    }
+
+    #menu:checked ~ .navbar {
+        display: initial;
+    }
+
+    .header {
+        padding: 50px 30px ;
+    }
+
+    .header-txt {
+        text-align: center;
+        padding: 0;
+    }
+
+    .header-txt h1 {
+        font-size: 50px;
+    }
+    .header-txt span {
+        font-size: 26px;
+    }
+
+    .header-txt p {
+        padding: 0;
+    }
+
+    .services {
+        padding: 30px;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .about {
+        padding: 30px;
+    }
+
+    hr {
+        display: none;
+    }
+
+    .about-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about-txt {
+        margin-bottom: 25px;
+    }
+
+    .testimonial {
+        padding: 30px;
+    }
+
+    .testimonial-content {
+        flex-direction: column;
+    }
+
+    .testimonial-1 {
+        margin-bottom: 25px;
+    }
+
+    .information {
+        padding: 30px;
+        flex-direction: column;
+    }
+
+    .f1, .f2 {
+        width: 100%;
+    }
+
+    .information-txt {
+        border: -2;
+        margin: 0 0 20px 0;
+        text-align: center;
+    }
+
+    form {
+        width: 100%;
+    }
+
+    input {
+        width: 100%;
+    }
+
+    .footer {
+        padding: 30px;
+    }
+
+    .footer-content {
+        flex-direction: column;
+        text-align: center;
+    }
+}
